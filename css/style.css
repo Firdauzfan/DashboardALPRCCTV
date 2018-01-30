@@ -1,0 +1,72 @@
+.navbar-default{
+    background: #333399;
+    border: 0;
+}
+.navbar-default .navbar-text {
+    margin-top: 58px;
+    margin-bottom: 58px;
+    color: #fff;
+}
+.navbar-default .navbar-link,
+.navbar-default .navbar-link:hover {
+    color: #fff;
+}
+
+@media (min-width: 768px){
+    .btn-default,
+    .btn-default:hover,
+    .btn-default:focus,
+    .btn-default:active,
+    .btn-secondary,
+    .btn-secondary:hover,
+    .btn-secondary:focus,
+    .btn-secondary:active {
+        padding: 10px 22px;
+        font-size: 16px;
+        border-radius: 8px;
+    }
+    .navbar-brand {
+        float: left;
+        height: auto;
+        padding: 26px 15px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+
+.icon-loading {
+    -webkit-animation: icon-loading 2s infinite linear;
+    animation: icon-loading 2s infinite linear;
+}
+@keyframes icon-loading {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+footer{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+    margin-top: 30px;
+    padding: 38px 32px;
+    background: #333399;
+}
+footer ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+footer ul li{
+    display: inline-block;
+    margin-right: 48px;
+}
+footer ul li a{
+    color: #000;
+}
